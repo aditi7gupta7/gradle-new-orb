@@ -9,7 +9,7 @@ usage:
   executors:
     my-executor:
       docker:
-        - image: org/image:tag
+        - image: openjdk:8
 
   workflows:
     gradle_test:
